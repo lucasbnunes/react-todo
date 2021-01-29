@@ -1,0 +1,67 @@
+.TaskList {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 5vh auto;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 30px;
+}
+
+.--finished {
+  color: #bfbfbf;
+}
+
+.--empty {
+  display: none;
+}
+
+.TaskList__row {
+  box-sizing: border-box;
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.TaskList__row:hover {
+  background: rgba(242, 204, 143, 0.07);
+  background: #f6f6f6;
+}
+
+.--finished .TaskList__row:hover {
+  background: #f6f6f6;
+}
+
+.TaskList__text {
+  flex: 0.9;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  line-height: 28px;
+  color: inherit;
+  padding: 0;
+  font-family: inherit;
+}
+
+.TaskList__icons {
+  flex: 0.1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+  color: #3d405b;
+}
+
+.TaskList__icons svg:last-child {
+  /*color: #e07a5f;*/
+  color: #e71d36;
+  margin-left: 1rem;
+}
+
+.TaskList__icons svg:first-child {
+  color: #1ee85e;
+}
+
+.TaskList__icons * {
+  cursor: pointer;
+}

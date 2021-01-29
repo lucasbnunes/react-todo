@@ -1,0 +1,14 @@
+.App {
+  margin: 0 24px;
+}
+
+.App__section {
+  max-width: 1100px;
+  margin: 70px auto;
+}
+
+.App__section h3 {
+  font-size: 17px;
+  width: fit-content;
+  color: #5f5f5f;
+}
